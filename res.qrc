@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/73417F82CCD03885D9E180A49C9E0D7C.jpg</file>
+        <file>images/F18CEFAD11A216604644DDC38D027B32.jpg</file>
+        <file>images/OIP-C (1).jpg</file>
+        <file>images/OIP-C (2).jpg</file>
+        <file>images/OIP-C (3).jpg</file>
+        <file>images/OIP-C.jpg</file>
+        <file>images/start.png</file>
+        <file>images/victory.png</file>
+        <file>images/coinicon.png</file>
+        <file>images/backbtn.png</file>
+        <file>images/backbtn-2.png</file>
+        <file>images/459EE67CBAE389A258A81BFC94291139.jpg</file>
+        <file>images/63828C268D1E60535CA6F0904D0DBFEA.jpg</file>
+        <file>images/coin-1.gif</file>
+        <file>images/E7AF67868D503717BD39D33645A95511.jpg</file>
+        <file>images/playbkg.jpg</file>
+        <file>images/whitebkg.png</file>
+        <file>images/coin-2.gif</file>
+        <file>images/nomoremanbo.wav</file>
+        <file>images/ohyeah.wav</file>
+        <file>images/wow.wav</file>
+    </qresource>
+</RCC>
