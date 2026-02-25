@@ -12,6 +12,7 @@ Woc小游戏制作之耄耋版翻金币
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ddb9e6c5-ad77-45b4-95af-8be18ff95021" />
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8bc0d287-9e2e-4152-bae7-a02efebd2e55" />
+<img width="500" height="500" alt="屏幕截图 2026-02-25 164909" src="https://github.com/user-attachments/assets/00ed7906-07c4-4eb4-9351-34bf6f496b1d" />
+
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fdce3588-e81e-4b1a-86dc-aee457df3496" />
