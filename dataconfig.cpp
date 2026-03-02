@@ -38,8 +38,8 @@ DataConfig::DataConfig(QObject *parent)
     m_Data.insert(2,v);
 
 
-    int array3[4][4] = { {0, 1, 0, 1},
-                        {1, 0, 1, 0},
+    int array3[4][4] = { {1, 1, 0, 1},
+                        {1, 1, 1, 0},
                         {0, 1, 0, 1},
                         {1, 0, 1, 0}} ;
     v.clear();
@@ -57,8 +57,8 @@ DataConfig::DataConfig(QObject *parent)
 
 
     int array4[4][4] = { {1, 1, 0, 0},
-                        {1, 1, 0, 0},
-                        {0, 0, 1, 1},
+                        {1, 1, 0, 1},
+                        {0, 0, 1, 0},
                         {0, 0, 1, 1}} ;
     v.clear();
     for(int i = 0 ; i < 4;i++)
@@ -93,9 +93,9 @@ DataConfig::DataConfig(QObject *parent)
 
 
     int array6[4][4] = {{1, 0, 1, 0},
-                        {0, 0, 0, 0},
+                        {0, 0, 0, 1},
                         {1, 0, 1, 1},
-                        {0, 0, 0, 0}} ;
+                        {0, 0, 0, 1}} ;
     v.clear();
     for(int i = 0 ; i < 4;i++)
     {
@@ -214,8 +214,8 @@ DataConfig::DataConfig(QObject *parent)
 
     int array13[4][4] = {  {0, 0, 0, 0},
                            {0, 0, 1, 0},
-                           {0, 1, 0, 0},
-                           {0, 0, 0, 0}} ;
+                           {0, 1, 1, 0},
+                           {0, 0, 0, 1}} ;
     v.clear();
     for(int i = 0 ; i < 4;i++)
     {
@@ -231,9 +231,10 @@ DataConfig::DataConfig(QObject *parent)
 
 
     int array14[4][4] ={{1, 0, 0, 0},
-                        {0, 0, 0, 0},
-                        {0, 0, 0, 0},
-                        {0, 0, 0, 1}} ;
+                        {0, 0, 0, 1},
+                        {0, 0, 0, 1},
+                        {0, 0, 0, 1}
+    } ;
     v.clear();
     for(int i = 0 ; i < 4;i++)
     {
@@ -251,7 +252,7 @@ DataConfig::DataConfig(QObject *parent)
     int array15[4][4] = {  {0, 1, 1, 1},
                            {1, 1, 1, 1},
                            {1, 1, 1, 1},
-                           {1, 1, 1, 0}
+                           {1, 0, 0, 0}
     } ;
     v.clear();
     for(int i = 0 ; i < 4;i++)
@@ -285,10 +286,10 @@ DataConfig::DataConfig(QObject *parent)
     m_Data.insert(16,v);
 
 
-    int array17[4][4] = {   {0, 0, 1, 1},
-                        {0, 0, 1, 1},
-                        {1, 1, 0, 0},
-                        {1, 1, 0, 0}} ;
+    int array17[4][4] = {  {0, 0, 0, 0},
+                        {0, 0, 0, 0},
+                        {0, 0, 0, 0},
+                        {0,0, 0, 0}} ;
     v.clear();
     for(int i = 0 ; i < 4;i++)
     {
