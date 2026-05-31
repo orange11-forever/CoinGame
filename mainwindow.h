@@ -1,8 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include"chooselevelscene.h"
+
 #include <QMainWindow>
-#include<QPainter>
+#include <QPainter>
+#include "chooselevelscene.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;

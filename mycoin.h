@@ -1,8 +1,9 @@
 #ifndef MYCOIN_H
 #define MYCOIN_H
-#include<QPushButton>
+
+#include <QPushButton>
 #include <QWidget>
-#include<QTimer>
+#include <QTimer>
 class MyCoin : public QPushButton
 {
     Q_OBJECT

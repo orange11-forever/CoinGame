@@ -68,4 +68,5 @@ void MainWindow::paintEvent(QPaintEvent *e)
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete chooseScene;
 }

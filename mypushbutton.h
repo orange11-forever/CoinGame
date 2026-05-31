@@ -1,8 +1,9 @@
 #ifndef MYPUSHBUTTON_H
 #define MYPUSHBUTTON_H
+
 #include <QObject>
-#include<QPushButton>
-#include<QPropertyAnimation>
+#include <QPushButton>
+#include <QPropertyAnimation>
 class MyPushButton:public QPushButton
 { Q_OBJECT
 public:

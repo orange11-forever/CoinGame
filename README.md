@@ -46,7 +46,6 @@ CoinGame/
 ├── mypushbutton.h/.cpp      # 自定义按钮（弹跳动画效果）
 ├── mycoin.h/.cpp            # 金币按钮（正反翻转逻辑）
 ├── dataconfig.h/.cpp        # 关卡数据配置（20 关预设）
-├── coingame.pro             # Qt .pro 工程文件
 ├── CMakeLists.txt           # CMake 构建配置
 ├── res.qrc                  # Qt 资源文件
 └── images/                  # 图片和音效资源
@@ -103,7 +102,7 @@ cmake --build build
 ### 使用 Qt Creator
 
 1. 打开 Qt Creator，选择 **File → Open File or Project...**
-2. 选择 `CMakeLists.txt` 或 `coingame.pro`
+2. 选择 `CMakeLists.txt`
 3. 配置 Kit（推荐 Qt 6.8.3 MinGW 64-bit）
 4. 点击 **Run** 运行
 

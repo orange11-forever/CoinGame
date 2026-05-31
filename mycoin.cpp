@@ -2,6 +2,7 @@
 
 
 MyCoin::MyCoin(QString img)
+    : posX(0), posY(0), flag(false)
 {
     QPixmap pix;
     bool ret=pix.load(img);

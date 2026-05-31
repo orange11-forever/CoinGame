@@ -7,7 +7,7 @@
 #include<QSoundEffect>
 #include<QUrl>
 ChooseLevelScene::ChooseLevelScene(QWidget *parent)
-    : QMainWindow{parent}
+    : QMainWindow{parent}, play(nullptr)
 {
     //设置尺寸
     this->setFixedSize(420,688);
@@ -37,7 +37,6 @@ ChooseLevelScene::ChooseLevelScene(QWidget *parent)
        bgm2->play();
        emit chooseSceneBack();
    });
-   play=NULL;
    //关卡矩阵实现
    for(int i=0;i<20;i++){
        MyPushButton*menuBtn=new MyPushButton(":/images/F18CEFAD11A216604644DDC38D027B32.jpg",":/images/F18CEFAD11A216604644DDC38D027B32.jpg");
@@ -46,6 +45,10 @@ ChooseLevelScene::ChooseLevelScene(QWidget *parent)
        connect(menuBtn,&MyPushButton::clicked,[=](){
            //音乐
            bgm2->play();
+           if (this->play) {
+               delete this->play;
+               this->play = nullptr;
+           }
            this->play=new PlayScene(i+1);
            this->play->show();
            this->hide();//关卡场景转换
@@ -70,6 +73,14 @@ ChooseLevelScene::ChooseLevelScene(QWidget *parent)
        //鼠标穿透
        label->setAttribute(Qt::WA_TransparentForMouseEvents);
    }
+}
+
+ChooseLevelScene::~ChooseLevelScene()
+{
+    if (play) {
+        delete play;
+        play = nullptr;
+    }
 }
 
 void ChooseLevelScene::paintEvent(QPaintEvent *e)
